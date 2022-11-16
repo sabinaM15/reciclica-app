@@ -1,6 +1,6 @@
 import { createAction } from "@ngrx/store";
 import { hide, show } from "./loading.actions";
-import { loadingReducer } from "./loading.reducer";
+import { loadingReducer } from "./loading.reducers";
 import { LoadingState } from "./loadingState";
 
 describe('Loading store', () => {

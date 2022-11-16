@@ -3,7 +3,7 @@ import { IonicModule } from '@ionic/angular';
 import { Store, StoreModule } from '@ngrx/store';
 import { AppState } from 'src/store/AppState';
 import { hide, show } from 'src/store/loading/loading.actions';
-import { loadingReducer } from 'src/store/loading/loading.reducer';
+import { loadingReducer } from 'src/store/loading/loading.reducers';
 
 import { LoadingComponent } from './loading.component';
 
